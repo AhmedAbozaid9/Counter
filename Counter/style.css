@@ -1,0 +1,54 @@
+* :focus{
+    outline: none;
+}
+body{
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+
+}
+div{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: rgb(231, 231, 231);
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    font-size: 8.5rem;
+}
+
+button{
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: none;
+    color: white;
+    background-color: rgb(0, 153, 255);
+}
+button:hover{
+    background-color: #a4a4a4;
+    cursor: pointer;
+}
+.increase{
+    background-color: rgb(3, 163, 3);
+}
+.decrease{
+    background-color: rgb(184, 1, 1);
+}
+.auto{
+    background-color: rgb(26, 26, 26);
+    padding: 1rem;
+    margin-top: 5rem;
+}
